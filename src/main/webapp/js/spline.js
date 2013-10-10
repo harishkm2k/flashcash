@@ -11,7 +11,7 @@ DEMO.run = function() {
 	var maxX = $(document).width() - 100;
 	var maxY = $(document).height() - 100;
 
-	var numPoints = 5;
+	var numPoints = 4;
 	var dotsPerSeg = 5;
 	var i;
 
