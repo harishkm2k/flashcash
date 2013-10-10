@@ -14,8 +14,8 @@
 .waypoint {
 	position: absolute;
 	z-index: 4;
-	width: 26px;
-	height: 26px;
+	width: 25px;
+	height: 25px;
 	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -115,6 +115,9 @@ $(".mover").animate({
 		</div>
 	</div>
  	-->
-<h1>Charlie's Gift Gallery</h1> 	
+<h1 style="color: white; ">Charlie's - Four Wishes !! </h1> 	
+<div>
+	<img src="images/Friends-Contribution.png" alt="Friends Contribution" align="right"/>
+</div>
 </body>
 </html>

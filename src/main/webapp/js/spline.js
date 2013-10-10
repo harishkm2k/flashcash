@@ -36,7 +36,7 @@ DEMO.run = function() {
 	// Scary-looking stuff to visualize the waypoints and the trail of dots
 	// NOT needed for animation
 	for (i=0; i<numPoints; i++) {
-		$('<div class="waypoint">' + i + '</div>')
+		$('<div class="waypoint">' + '' + '</div>')
 			.appendTo($(document.body))
 			.css({
 				left: points[i][0],
@@ -63,7 +63,7 @@ DEMO.run = function() {
 		.animate({ crSpline: spline }, 20000, function () {
 			// Re-run the demo with a new spline after we're done
 			window.setTimeout(function() {
-				DEMO.run();
+				//DEMO.run();
 			}, 5000);
 		});
 	
