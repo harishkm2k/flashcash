@@ -29,7 +29,7 @@
 	height: 50px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://media-mcw.cursecdn.com/thumb/e/ea/Xbox_360_symbol.svg/50px-Xbox_360_symbol.svg.png");	
+		
 }
 
 .waypoint1 {
@@ -39,7 +39,7 @@
 	height: 50px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://www.sportsauthority.com/graphics/product_images/pTSA-14474156t50.gif");	
+
 }
 
 .waypoint2 {
@@ -49,7 +49,7 @@
 	height: 50px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://media1.onsugar.com/files/2011/08/31/3/192/1922664/e1e7fa7751ab45b1_51PVUhBRKXL.smallsquare/i/I-Said-Kid--Kid-Guide-Keeping-Your-Private-Parts-Private-10.jpg");	
+	
 }
 
 .waypoint3 {
@@ -122,7 +122,7 @@
 }
 </style>
 </head>
-<body bgcolor="#333333" background="images/myview/Canvas-WIP.png">
+<body background="images/myview/Canvas_WIP.png">
 
 <!-- 
 	<div id="snippet">
