@@ -39,7 +39,7 @@
 	height: 56px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("images/myview/my-events.png");
+	
 }
 
 .waypoint2 {

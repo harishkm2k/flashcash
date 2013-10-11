@@ -251,7 +251,7 @@
         		<form action="my-view-after.jsp">
         			<tr>
         				<th>Give Charlie £ </th>
-        				<td><input type="text" size="10"/ value="50"></td>
+        				<td><input type="text" size="10"/ value="20"></td>
         			</tr>
         			<tr>
         				<th padding="">For</th>

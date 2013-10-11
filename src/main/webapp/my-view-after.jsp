@@ -39,7 +39,7 @@
 	height: 56px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("images/myview/my-events.png");
+	
 }
 
 .waypoint2 {
@@ -59,7 +59,7 @@
 	height: 36px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("images/myview/my-trophy.png");	
+		
 }
 
 .waypoint4 {
@@ -300,13 +300,13 @@ $(".mover").animate({
 		<tr><td>
 		<img src="images/myview/new-01.png" alt="Friends Contribution" align="right">
 		</td></tr>
-		
+
+		<tr><td>
+		<img src="images/myview/new-03-charlie.png" alt="Friends Contribution" align="right">
+		</td></tr>
+				
 		<tr><td>
 		<img src="images/myview/new-02.png" alt="Friends Contribution" align="right">
-		</td></tr>
-		
-		<tr><td>
-		<img src="images/myview/new-03.png" alt="Friends Contribution" align="right">
 		</td></tr>
 		
 		<tr><td>
@@ -314,7 +314,7 @@ $(".mover").animate({
 		</td></tr>
 		
 		<tr><td>
-		<img src="images/myview/new-05.png" alt="Friends Contribution" align="right">
+		<img src="images/myview/new-05-granny.png" alt="Friends Contribution" align="right">
 		</td></tr>
 		
 		<tr><td>
@@ -352,8 +352,8 @@ $(".mover").animate({
         			</tr>
         			<tr/>
         			<tr>
-        				<th>Granny gave</th>
-        				<td>£50</td>
+        				<th>Aunty Ruth gave</th>
+        				<td>£20</td>
         			</tr>
         			<tr>
         				<th>For</th>
