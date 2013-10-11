@@ -343,7 +343,7 @@ $(".mover").animate({
         			<tbody>
         			<tr>
         				<th>Aunty gave</th>
-        				<td>£20</td>
+        				<td>£25</td>
         			</tr>
         			<tr>
         				<th>For</th>
