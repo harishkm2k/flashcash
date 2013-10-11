@@ -29,13 +29,15 @@ DEMO.run = function() {
 
 	points.push( [  200 , 350 ] ); // To show the events - 1
 	
-	points.push( [  405 , 480 ] );
+	points.push( [  200 , 350 ] ); // To show the tiny squeezed image
 	
-	points.push( [  605 , 350 ] ); // To show the Trophy - 3
+	points.push( [  405 , 560 ] ); // To show the First goal
 	
-	points.push( [  780 , 140 ] );
+	points.push( [  625 , 400 ] ); // To show the Trophy - 3
+	
+	points.push( [  780 , 140 ] ); // To show the Second goal
 
-	points.push( [  1100 , 350 ] );
+	points.push( [  1000 , 180 ] );
 	
 	points.push( [  1100 , 350 ] );
 	
@@ -117,9 +119,77 @@ $(document).ready(function() {
 	$("#show-waypoints").attr("checked", DEMO.showWaypoints);
 
 	DEMO.run();
+
+	// Tool tip to show my events
+	$(".waypoint1").click(function () {
+		alert('I am happy that my granny gifted me 20£ on my last birthday :) ');
+	});
+	
+	// Tool tip to show my trophies
+	$(".waypoint3").click(function () {
+		alert('I am happy that my bank Lloyds gifted me a trophy :) ');
+	});		
+	
 });
 
 function navigateToAlicePage() {
 	// alert('Navigating to Alice Page');
 	window.open("my-friend.jsp");
 }
+
+
+$(function () {
+    $('.bubbleInfo').each(function () {
+        var distance = 10;
+        var time = 250;
+        var hideDelay = 500;
+
+        var hideDelayTimer = null;
+
+        var beingShown = false;
+        var shown = false;
+        var trigger = $('.trigger', this);
+        var info = $('.popup', this).css('opacity', 0);
+
+
+        $([trigger.get(0), info.get(0)]).mouseover(function () {
+            if (hideDelayTimer) clearTimeout(hideDelayTimer);
+            if (beingShown || shown) {
+                // don't trigger the animation again
+                return;
+            } else {
+                // reset position of info box
+                beingShown = true;
+
+                info.css({
+                    top: -90,
+                    left: -33,
+                    display: 'block'
+                }).animate({
+                    top: '-=' + distance + 'px',
+                    opacity: 1
+                }, time, 'swing', function() {
+                    beingShown = false;
+                    shown = true;
+                });
+            }
+
+            return false;
+        }).mouseout(function () {
+            if (hideDelayTimer) clearTimeout(hideDelayTimer);
+            hideDelayTimer = setTimeout(function () {
+                hideDelayTimer = null;
+                info.animate({
+                    top: '-=' + distance + 'px',
+                    opacity: 0
+                }, time, 'swing', function () {
+                    shown = false;
+                    info.css('display', 'none');
+                });
+
+            }, hideDelay);
+
+            return false;
+        });
+    });
+});
