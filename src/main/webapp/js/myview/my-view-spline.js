@@ -19,7 +19,7 @@ DEMO.run = function() {
 	
 	// points.push( [  100 , 600 ] );
 	
-	points.push( [  100 , 600 ] );
+	points.push( [  130 , 110 ] );
 	
 	// Make a random list of waypoints for the animation to follow
 	for (i=0; i<numPoints; i++) {
@@ -29,11 +29,11 @@ DEMO.run = function() {
 		// points.push( [  i * 200 , Math.floor(Math.random()*(maxY-minY))+minY] );
 	}
 
-	points.push( [  500 , 350 ] );
+	points.push( [  405 , 480 ] );
 	
-	points.push( [  878 , 450 ] );
+	points.push( [  780 , 140 ] );
 
-	points.push( [  1000 , 150 ] );
+	points.push( [  1100 , 350 ] );
 	
 	// -- Important bit #1: Generate the spline animation object --
 	var spline = $.crSpline.buildSequence(points);
