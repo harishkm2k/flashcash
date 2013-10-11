@@ -351,6 +351,15 @@ $(".mover").animate({
         				<th>For</th>
         				<td>Christmas</td>
         			</tr>
+        			<tr/>
+        			<tr>
+        				<th>Granny gave</th>
+        				<td>£50</td>
+        			</tr>
+        			<tr>
+        				<th>For</th>
+        				<td>Birthday</td>
+        			</tr>        			
         		</tbody></table>
 
         		</td>
