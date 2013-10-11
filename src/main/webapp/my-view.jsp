@@ -36,10 +36,10 @@
 	position: absolute;
 	z-index: 4;
 	width: 50px;
-	height: 50px;
+	height: 56px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-
+	background-image: url("images/myview/my-events.png");
 }
 
 .waypoint2 {
@@ -55,11 +55,62 @@
 .waypoint3 {
 	position: absolute;
 	z-index: 4;
+	width: 34px;
+	height: 36px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("images/myview/my-trophy.png");	
+}
+
+.waypoint4 {
+	position: absolute;
+	z-index: 4;
 	width: 50px;
 	height: 50px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://29ermountainbikereviews.com/wp-content/uploads/2013/09/kids-bmx-bikeyamaha-moto-12-bmx-bike---walmart-8sj9ugy9-75x75.jpg");	
+		
+}
+
+
+.waypoint5 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+		
+}
+
+.waypoint6 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+		
+}
+
+.waypoint7 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+		
+}
+
+.waypoint8 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+		
 }
 
 .path-dot {
