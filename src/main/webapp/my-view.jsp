@@ -59,7 +59,6 @@
 	height: 36px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("images/myview/my-trophy.png");	
 }
 
 .waypoint4 {
@@ -293,7 +292,6 @@ $(".mover").animate({
 		</div>
 	</div>
  	-->
-<h1 style="color: white; ">Charlie's - Four Wishes !! </h1> 	
 <div>
 	<div align="right">
 		<table>
@@ -345,7 +343,7 @@ $(".mover").animate({
         			<tbody>
         			<tr>
         				<th>Aunty gave</th>
-        				<td>£20</td>
+        				<td>£25</td>
         			</tr>
         			<tr>
         				<th>For</th>

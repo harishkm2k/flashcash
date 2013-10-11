@@ -292,8 +292,7 @@ $(".mover").animate({
 			Show Trail
 		</div>
 	</div>
- 	-->
-<h1 style="color: white; ">Charlie's - Four Wishes !! </h1> 	
+ 	-->	
 <div>
 	<div align="right">
 		<table>
@@ -345,7 +344,7 @@ $(".mover").animate({
         			<tbody>
         			<tr>
         				<th>Aunty gave</th>
-        				<td>£20</td>
+        				<td>£25</td>
         			</tr>
         			<tr>
         				<th>For</th>
