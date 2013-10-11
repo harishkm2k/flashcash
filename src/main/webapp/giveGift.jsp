@@ -7,7 +7,7 @@
 <script type="text/javascript" src="http://ijin.net/crSpline/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="http://ijin.net/crSpline/jquery.crSpline.js"></script>
 
-
+<script type="text/javascript" src="js/myview/my-view-spline.js"></script>
 <style>
 .waypoint {
 	position: absolute;
@@ -97,8 +97,8 @@
 
         .bubbleInfo {
             position: relative;
-            top: 100px;
-            left: 100px;
+            top: 250px;
+            left: 140px;
             width: 800px;
         }
         .trigger {
@@ -216,11 +216,11 @@
     });
 </script>
 </head>
-<body>
+<body bgcolor="#333333" background="images/myview/Canvas_WIP.png">
 <h1 style="color: white; ">Charlie's - Four Wishes !! </h1>
 <div class="bubbleInfo">
         <div>
-            <img class="trigger" style="left:145px;" src="images/goal.png" id="download" />
+            <img class="trigger" style="left:145px;top:70px;" src="images/goal.png" id="download" />
         </div>
         <table id="dpop" class="popup">
         	<tbody><tr>
@@ -233,11 +233,11 @@
         		<td><table class="popup-contents"><tbody>
         		<form action="#">
         			<tr>
-        				<th>Give Charlie</th>
-        				<td><input type="text"/></td>
+        				<th>Give Charlie £ </th>
+        				<td><input type="text" size="10"/></td>
         			</tr>
         			<tr>
-        				<th>For</th>
+        				<th padding="100">For</th>
         				<td><select>
                               <option value="Christmas">Christmas</option>
                               <option value="Birthday">Birthday</option>
