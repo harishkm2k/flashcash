@@ -12,14 +12,14 @@ DEMO.run = function() {
 	var maxY = $(document).height() - 100;
 
 	var numPoints = 4;
-	var dotsPerSeg = 5;
+	var dotsPerSeg = 15;
 	var i;
 
 	var points = [];
 	
 	// points.push( [  100 , 600 ] );
 	
-	points.push( [  200 , 600 ] );
+	points.push( [  100 , 600 ] );
 	
 	// Make a random list of waypoints for the animation to follow
 	for (i=0; i<numPoints; i++) {
@@ -29,11 +29,11 @@ DEMO.run = function() {
 		// points.push( [  i * 200 , Math.floor(Math.random()*(maxY-minY))+minY] );
 	}
 
-	points.push( [  600 , 350 ] );
+	points.push( [  500 , 350 ] );
 	
-	points.push( [  978 , 450 ] );
+	points.push( [  878 , 450 ] );
 
-	points.push( [  1100 , 150 ] );
+	points.push( [  1000 , 150 ] );
 	
 	// -- Important bit #1: Generate the spline animation object --
 	var spline = $.crSpline.buildSequence(points);
@@ -109,3 +109,8 @@ $(document).ready(function() {
 
 	DEMO.run();
 });
+
+function navigateToAlicePage() {
+	// alert('Navigating to Alice Page');
+	window.open("my-friend.jsp");
+}

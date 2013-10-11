@@ -76,11 +76,11 @@
 .mover {
 	position: absolute;
 	z-index: 5;
-	width: 40px;
-	height: 40px;	
+	width: 50px;
+	height: 21px;	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("images/myview/air-ship.png");
+	background-image: url("images/myview/spaceship.png");
 }
 
 #snippet {
@@ -122,7 +122,7 @@
 }
 </style>
 </head>
-<body bgcolor="#333333">
+<body bgcolor="#333333" background="images/myview/Canvas-WIP.png">
 
 <!-- 
 	<div id="snippet">
@@ -156,7 +156,35 @@ $(".mover").animate({
  	-->
 <h1 style="color: white; ">Charlie's - Four Wishes !! </h1> 	
 <div>
-	<img src="images/myview/Friends-Contribution.png" alt="Friends Contribution" align="right"/>
+	<div align="right">
+		<table>
+		
+		<tr><td>
+		<img src="images/myview/01.png" alt="Friends Contribution" align="right">
+		</td></tr>
+		
+		<tr><td>
+		<img src="images/myview/02.png" alt="Friends Contribution" align="right">
+		</td></tr>
+		
+		<tr><td>
+		<img src="images/myview/03.png" alt="Friends Contribution" align="right">
+		</td></tr>
+		
+		<tr><td>
+		<img src="images/myview/04.png" alt="Friends Contribution" align="right">
+		</td></tr>
+		
+		<tr><td>
+		<img src="images/myview/05.png" alt="Friends Contribution" align="right">
+		</td></tr>
+		
+		<tr><td>
+		<img src="images/myview/06.png" alt="Friends Contribution" align="right" onclick="navigateToAlicePage()"/>
+		</td></tr>
+				
+		</table>
+	</div>
 </div>
 </body>
 </html>
