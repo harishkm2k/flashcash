@@ -118,6 +118,22 @@
         	height: 15px;
         	width: 19px;
         }
+        textarea {
+   font-size: 10pt;
+   font-family: Arial;
+} 
+       option {
+   font-size: 10pt;
+   font-family: Arial;
+} 
+       select {
+   font-size: 10pt;
+   font-family: Arial;
+} 
+       input {
+   font-size: 10pt;
+   font-family: Arial;
+}
 
         .popup td#topleft { background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-1.png); }
         .popup td.top { background-image: url(http://static.jqueryfordesigners.com/demo/images/coda/bubble-2.png); }
@@ -134,7 +150,6 @@
         	line-height: 1.2em;
         	background-color: #fff;
         	color: #666;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
         	}
 
         table.popup-contents th {
@@ -247,11 +262,11 @@
         			</tr>
         			<tr>
         				<th>Personal Message</th>
-        				<td><textarea>Enter personal message for Charlie </textarea></td>
+        				<td><textarea class="popup-contents">Enter personal message for Charlie </textarea></td>
         			</tr>
         			<tr>
         				<th></th>
-        				<td><input type="submit" value="Give" /></td>
+        				<td><input type="image" value="Give" src="images/image.jpg" name="image" width="60" height="40"/> </td>
         			</tr>
         		</tbody></table>
 
