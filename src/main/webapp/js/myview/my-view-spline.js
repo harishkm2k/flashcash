@@ -29,8 +29,6 @@ DEMO.run = function() {
 
 	points.push( [  200 , 350 ] ); // To show the events - 1
 	
-	points.push( [  200 , 350 ] ); // To show the tiny squeezed image
-	
 	points.push( [  405 , 560 ] ); // To show the First goal
 	
 	points.push( [  625 , 400 ] ); // To show the Trophy - 3
