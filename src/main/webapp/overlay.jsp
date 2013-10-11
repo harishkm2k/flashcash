@@ -153,7 +153,7 @@
     <body >
     <div class="bubbleInfo">
         <div>
-            <img class="trigger" style="left:145px;" src="images/goal.png" id="download" />
+            <img class="trigger" style="left:145px;" src="images/myview/spaceship.png" id="download" />
         </div>
         <table id="dpop" class="popup">
         	<tbody><tr>
@@ -168,23 +168,12 @@
 
         			<tbody>
         			<tr>
-        				<th>Give Charlie</th>
-        				<td><input type="text"/></td>
+        				<th>Aunty gave</th>
+        				<td>£100</td>
         			</tr>
         			<tr>
         				<th>For</th>
-        				<td><select>
-                              <option value="Christmas">Christmas</option>
-                              <option value="Birthday">Birthday</option>
-                            </select></td>
-        			</tr>
-        			<tr>
-        				<th>Personal Message</th>
-        				<td><textarea>Enter personal message for Charlie </textarea></td>
-        			</tr>
-        			<tr>
-        				<th></th>
-        				<td><input type="submit" value="Give" /></td>
+        				<td>Christmas</td>
         			</tr>
         		</tbody></table>
 
