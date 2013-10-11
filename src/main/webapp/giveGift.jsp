@@ -266,7 +266,7 @@
         			</tr>
         			<tr>
         				<th></th>
-        				<td><input type="image" value="Give" src="images/image.jpg" name="image" width="60" height="40"/> </td>
+        				<td><input type="image" value="Give" src="images/give-gift.png" name="image" width="89" height="37"/> </td>
         			</tr>
         		</tbody></table>
 
