@@ -16,25 +16,15 @@ DEMO.run = function() {
 	var i;
 
 	var points = [];
-	
-	// points.push( [  100 , 600 ] );
-	
-	points.push( [  200 , 600 ] );
-	
+
 	// Make a random list of waypoints for the animation to follow
 	for (i=0; i<numPoints; i++) {
 		// points.push( [Math.floor(Math.random()*(maxX-minX))+minX, Math.floor(Math.random()*(maxY-minY))+minY] );
 		// points.push( [Math.floor( i *(maxX-minX)) + minX + Math.random(), Math.floor( Math.random() *(maxY-minY)) + minY ] );
 		// points.push( [ i * Math.random() , Math.floor(Math.random()*(maxY-minY))+minY] );
-		// points.push( [  i * 200 , Math.floor(Math.random()*(maxY-minY))+minY] );
+		points.push( [  i * 200 , Math.floor(Math.random()*(maxY-minY))+minY] );
 	}
 
-	points.push( [  600 , 350 ] );
-	
-	points.push( [  978 , 450 ] );
-
-	points.push( [  1100 , 150 ] );
-	
 	// -- Important bit #1: Generate the spline animation object --
 	var spline = $.crSpline.buildSequence(points);
 	
@@ -46,7 +36,6 @@ DEMO.run = function() {
 	// Scary-looking stuff to visualize the waypoints and the trail of dots
 	// NOT needed for animation
 	for (i=0; i<numPoints; i++) {
-		
 		$('<div class="waypoint">' + '' + '</div>')
 			.appendTo($(document.body))
 			.css({
@@ -54,8 +43,7 @@ DEMO.run = function() {
 				top: points[i][1],
 				display: (DEMO.showWaypoints ? "inline" : "none")
 			});
-		
-		
+
 		for (var j=0; j<dotsPerSeg; j++) {
 			var t = (i + j/dotsPerSeg) / points.length;
 			var pos = spline.getPos(t);
