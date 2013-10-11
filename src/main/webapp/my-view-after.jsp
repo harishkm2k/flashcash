@@ -292,8 +292,7 @@ $(".mover").animate({
 			Show Trail
 		</div>
 	</div>
- 	-->
-<h1 style="color: white; ">Charlie's - Four Wishes !! </h1> 	
+ 	-->	
 <div>
 	<div align="right">
 		<table>
