@@ -1,15 +1,86 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>Give to Charlie</title>
-    <style type="text/css" media="screen">
-        * {
-            margin:0 ;
-            padding: 0;
-        }
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Charlie's FourWishes</title>
+<script type="text/javascript" src="http://ijin.net/crSpline/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://ijin.net/crSpline/jquery.crSpline.js"></script>
 
+
+<style>
+.waypoint {
+	position: absolute;
+	z-index: 4;
+	width: 25px;
+	height: 25px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://www.sacred-texts.com/the/sd/sd1-4a.jpg");
+	
+}
+
+.path-dot {
+	position: absolute;
+	z-index: 1;
+	width: 4px;
+	height: 4px;
+	font: 0px;
+	background-color: #dca3a3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mover {
+	position: absolute;
+	z-index: 5;
+	width: 40px;
+	height: 40px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://www.rw-designer.com/cursor-view/52792.png");
+}
+
+#snippet {
+	float: left;
+	clear: both;
+	z-index: 0;
+	color: #dcdccc;
+	font-family: "Lucida Console", "Monaco", "Arial", "Verdana"
+}
+
+#snippet pre {
+	font-family: "Lucida Console", "Monaco", "Arial", "Verdana"
+}
+
+#snippet a {
+	/*color: #4f4faf;*/
+	color: #5fbf5f;
+	text-decoration: none;
+}
+
+#snippet a:hover {
+	text-decoration: underline;
+	color: #4fff4f;
+}
+
+#settings {
+	float: left;
+	clear: both;
+	color: #dcdccc;
+}
+
+.option {
+	clear: both;
+}
+
+* {
+
+	font-family: "Lucida Console", "Monaco", "Arial", "Verdana";
+ 	margin:0 ;
+    padding: 0;
+}
         body {
             padding: 10px;
         }
@@ -85,13 +156,8 @@
         	color: #333;
         }
 
-
-    </style>
-
-
-    <script type="text/javascript" src="http://ijin.net/crSpline/jquery-1.4.2.min.js"></script>
-
-    <script type="text/javascript">
+</style>
+<script type="text/javascript">
 
     $(function () {
         $('.bubbleInfo').each(function () {
@@ -148,10 +214,11 @@
             });
         });
     });
-    </script>
+</script>
 </head>
-    <body >
-    <div class="bubbleInfo">
+<body>
+<h1 style="color: white; ">Charlie's - Four Wishes !! </h1>
+<div class="bubbleInfo">
         <div>
             <img class="trigger" style="left:145px;" src="images/goal.png" id="download" />
         </div>
@@ -163,10 +230,8 @@
         	</tr>
         	<tr>
         		<td class="left"></td>
-        		<td><table class="popup-contents">
+        		<td><table class="popup-contents"><tbody>
         		<form action="#">
-
-        			<tbody>
         			<tr>
         				<th>Give Charlie</th>
         				<td><input type="text"/></td>
@@ -201,8 +266,3 @@
     </div>
 </body>
 </html>
-
-
-
-
-
