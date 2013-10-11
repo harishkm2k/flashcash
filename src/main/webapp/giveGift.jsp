@@ -139,6 +139,8 @@
 
         table.popup-contents th {
         	text-align: right;
+        	padding:10px;
+        	margin:10px;
         	}
 
         table.popup-contents td {
@@ -237,7 +239,7 @@
         				<td><input type="text" size="10"/></td>
         			</tr>
         			<tr>
-        				<th padding="100">For</th>
+        				<th padding="">For</th>
         				<td><select>
                               <option value="Christmas">Christmas</option>
                               <option value="Birthday">Birthday</option>
