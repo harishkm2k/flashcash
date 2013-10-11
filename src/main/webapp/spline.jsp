@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>jQuery.crSpline</title>
+<title>Charlie's Galaxy</title>
 <script type="text/javascript" src="http://ijin.net/crSpline/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="http://ijin.net/crSpline/jquery.crSpline.js"></script>
 
