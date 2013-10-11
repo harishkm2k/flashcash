@@ -88,7 +88,8 @@
 
     </style>
 
-    <script src="http://jqueryfordesigners.com/demo/jquery.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://ijin.net/crSpline/jquery-1.4.2.min.js"></script>
 
     <script type="text/javascript">
 
@@ -149,7 +150,7 @@
     });
     </script>
 </head>
-    <body background="images/Gifted_public_view.png">
+    <body >
     <div class="bubbleInfo">
         <div>
             <img class="trigger" style="left:145px;" src="images/goal.png" id="download" />
