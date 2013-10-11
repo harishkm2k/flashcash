@@ -5,7 +5,6 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Give to Charlie</title>
     <style type="text/css" media="screen">
-    <!--
         * {
             margin:0 ;
             padding: 0;
@@ -86,13 +85,12 @@
         	color: #333;
         }
 
-    -->
+
     </style>
 
     <script src="http://jqueryfordesigners.com/demo/jquery.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-    <!--
 
     $(function () {
         $('.bubbleInfo').each(function () {
@@ -149,11 +147,8 @@
             });
         });
     });
-
-    //-->
     </script>
 </head>
-<body id="page">
     <body background="images/Gifted_public_view.png">
     <div class="bubbleInfo">
         <div>
