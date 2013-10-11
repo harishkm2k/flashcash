@@ -248,21 +248,21 @@
         	<tr>
         		<td class="left"></td>
         		<td><table class="popup-contents"><tbody>
-        		<form action="#">
+        		<form action="my-view-after.jsp">
         			<tr>
         				<th>Give Charlie £ </th>
-        				<td><input type="text" size="10"/></td>
+        				<td><input type="text" size="10"/ value="50"></td>
         			</tr>
         			<tr>
         				<th padding="">For</th>
         				<td><select>
-                              <option value="Christmas">Christmas</option>
-                              <option value="Birthday">Birthday</option>
+                              <option value="Christmas">Birthday</option>
+                              <option value="Birthday">Christmas</option>
                             </select></td>
         			</tr>
         			<tr>
         				<th>Personal Message</th>
-        				<td><textarea class="popup-contents">Enter personal message for Charlie </textarea></td>
+        				<td><textarea class="popup-contents"> </textarea></td>
         			</tr>
         			<tr>
         				<th></th>
