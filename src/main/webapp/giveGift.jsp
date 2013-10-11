@@ -35,11 +35,11 @@
 .mover {
 	position: absolute;
 	z-index: 5;
-	width: 40px;
-	height: 40px;	
+	width: 50px;
+	height: 21px;	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://www.rw-designer.com/cursor-view/52792.png");
+	background-image: url("images/myview/spaceship.png");
 }
 
 #snippet {
@@ -97,7 +97,7 @@
 
         .bubbleInfo {
             position: relative;
-            top: 250px;
+            top: 300px;
             left: 140px;
             width: 800px;
         }
@@ -234,10 +234,10 @@
 </script>
 </head>
 <body bgcolor="#333333" background="images/myview/Canvas_WIP.png">
-<h1 style="color: white; ">Charlie's - Four Wishes !! </h1>
+<h1 style="color: white; "></h1>
 <div class="bubbleInfo">
         <div>
-            <img class="trigger" style="left:145px;top:70px;" src="images/goal.png" id="download" />
+            <img class="trigger" style="left:180px;top:70px;" src="images/goal.png" id="download" />
         </div>
         <table id="dpop" class="popup">
         	<tbody><tr>
