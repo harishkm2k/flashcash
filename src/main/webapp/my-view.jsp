@@ -16,11 +16,50 @@
 	z-index: 4;
 	width: 25px;
 	height: 25px;
-	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://www.sacred-texts.com/the/sd/sd1-4a.jpg");
 	
+	
+}
+
+.waypoint0 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://media-mcw.cursecdn.com/thumb/e/ea/Xbox_360_symbol.svg/50px-Xbox_360_symbol.svg.png");	
+}
+
+.waypoint1 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://www.sportsauthority.com/graphics/product_images/pTSA-14474156t50.gif");	
+}
+
+.waypoint2 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://media1.onsugar.com/files/2011/08/31/3/192/1922664/e1e7fa7751ab45b1_51PVUhBRKXL.smallsquare/i/I-Said-Kid--Kid-Guide-Keeping-Your-Private-Parts-Private-10.jpg");	
+}
+
+.waypoint3 {
+	position: absolute;
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url("http://29ermountainbikereviews.com/wp-content/uploads/2013/09/kids-bmx-bikeyamaha-moto-12-bmx-bike---walmart-8sj9ugy9-75x75.jpg");	
 }
 
 .path-dot {
@@ -41,7 +80,7 @@
 	height: 40px;	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-image: url("http://www.rw-designer.com/cursor-view/52792.png");
+	background-image: url("images/myview/air-ship.png");
 }
 
 #snippet {
